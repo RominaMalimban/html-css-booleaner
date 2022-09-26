@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    border: none;
 }
 
 body{
@@ -23,8 +24,26 @@ main #speciale{
     color: rgb(55, 132, 205);
 }
 
-main section figure{
+main section, main section figure{
     margin: 20px 0;
 }
+
+main section .highlighted{
+    background-color: yellow;
+}
+table{
+    border-collapse: collapse;
+}
+
+table thead tr th{
+    color: white;
+    background-color: rgb(55, 132, 205) ;
+}
+
+.specialTable{
+    background-color: #75c3dc;
+}
+
+
 
 /* regole footer */
