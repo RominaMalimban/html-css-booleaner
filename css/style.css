@@ -15,6 +15,7 @@ header img{
     display: block;
     width: 200px;
     height: 100px; 
+    margin: 0;
 }
 
 /* regole main */
@@ -32,7 +33,7 @@ main h1{
 }
 
 main #speciale{
-    color: rgb(55, 132, 205);
+    color: #3784cd;
 }
 
 main section, main section figure{
@@ -63,6 +64,7 @@ table .short{
 table th{
     text-align: left;
 }
+
 .specialTable{
     background-color: #75c3dc;
 }
