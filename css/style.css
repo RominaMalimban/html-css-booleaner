@@ -16,7 +16,7 @@ main h1{
     font-size: 40px;  
 }
 
-main .colorGrey{
+.colorGrey{
     color: #808080;
 }
 
@@ -44,6 +44,23 @@ table thead tr th{
     background-color: #75c3dc;
 }
 
-
-
 /* regole footer */
+footer #backgroundUno{
+    width: 300px;
+    height: 200px;
+    background-image: url("../immagini/monitor.jpg");
+    background-size: cover;
+    margin: 20px 0;
+}
+
+footer #backgroundDue{
+    width: 300px;
+    height: 200px;
+    background-image: url("../immagini/graph.jpg");
+    background-size: cover;
+}
+
+footer .colorWhite{
+    color: white;
+    font-size: bold;
+}
