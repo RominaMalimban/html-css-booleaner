@@ -27,6 +27,11 @@ main h1{
     font-size: 40px;  
 }
 
+.colorGrey h3, main h1{
+    padding: 0;
+    margin: 0;
+}
+
 .colorGrey{
     color: #808080;
 }
@@ -42,6 +47,11 @@ main section, main section figure{
 main section .highlighted{
     background-color: yellow;
 }
+
+section ul{
+    padding-left: 0;
+}
+
 table{
     border-collapse: collapse;
 }
