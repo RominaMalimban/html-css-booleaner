@@ -8,18 +8,18 @@ header{
     background-image: url(../immagini/pattern.png);
     background-color: rgb(55, 132, 205);
     background-size: contain;
-    height: 130px;
+    height: 120px;
 }
 
 header img{
+    display: block;
     width: 200px;
     height: 100px; 
-    margin: 0;
 }
 
 /* regole main */
 main h1{
-    font-size: 40px;  
+    font-size: 60px;  
 }
 
 .colorGrey h3, main h1{
