@@ -1,10 +1,4 @@
 /* regole generali */
-/* *{
-    margin: 0;
-    padding: 0;
-    border: none;
-} */
-
 body{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
@@ -19,6 +13,7 @@ header{
 header img{
     width: 200px;
     height: 100px;
+   
 }
 
 
@@ -49,7 +44,7 @@ main section .highlighted{
 }
 
 section ul{
-    padding-left: 0;
+    padding-left: 15px;
 }
 
 table{
@@ -58,9 +53,16 @@ table{
 
 table thead tr th{
     color: white;
-    background-color: rgb(55, 132, 205) ;
+    background-color: #3784cd ;
 }
 
+table .short{
+    width: 20%;
+}
+
+table th{
+    text-align: left;
+}
 .specialTable{
     background-color: #75c3dc;
 }
@@ -83,5 +85,6 @@ footer #backgroundDue{
 
 footer .colorWhite{
     color: white;
-    font-size: bold;
+    font-weight: bold;
+    padding: 10px 0 0 10px;
 }
