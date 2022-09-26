@@ -1,15 +1,26 @@
 /* regole generali */
-*{
+/* *{
     margin: 0;
     padding: 0;
     border: none;
-}
+} */
 
 body{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 /* regole header */
+header{
+    background-image: url(../immagini/pattern.png);
+    background-color: rgb(55, 132, 205);
+    background-size: contain;
+}
+
+header img{
+    width: 200px;
+    height: 100px;
+}
+
 
 /* regole main */
 main h1{
