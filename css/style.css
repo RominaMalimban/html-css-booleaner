@@ -22,4 +22,9 @@ main .colorGrey{
 main #speciale{
     color: rgb(55, 132, 205);
 }
+
+main section figure{
+    margin: 20px 0;
+}
+
 /* regole footer */
