@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
@@ -10,5 +11,15 @@ body{
 /* regole header */
 
 /* regole main */
+main h1{
+    font-size: 40px;  
+}
 
+main .colorGrey{
+    color: #808080;
+}
+
+main #speciale{
+    color: rgb(55, 132, 205);
+}
 /* regole footer */
