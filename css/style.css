@@ -7,7 +7,7 @@ body{
 header{
     background-image: url(../immagini/pattern.png);
     background-color: rgb(55, 132, 205);
-    background-size: contain;
+    background-size: 30%;
     height: 120px;
 }
 
